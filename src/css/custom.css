@@ -50,6 +50,12 @@ article p, article li {
   line-height: 2rem;
 }
 
+@media (max-width: 768px) {
+  article p, article li {
+    text-align: left;
+  }
+}
+
 article h1 {
   margin-bottom: 0rem !important;
 }
