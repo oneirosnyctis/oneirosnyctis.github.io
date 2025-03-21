@@ -2,7 +2,7 @@
 
 <p class="date">21-03-2025</p>
 
-<img src="/img/individuo-vs-colectivo.png" class="article-img" />
+<img src="/img/individuo-vs-colectivo.webp" class="article-img" />
 
 Parece existir una Ley que establece un oposición entre 2 conceptos fundamentales.
 
