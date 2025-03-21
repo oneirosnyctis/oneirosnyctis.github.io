@@ -45,10 +45,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 article p, article li {
-  /* text-align: justify; */
-  /* font-family: 'Alegreya', Georgia, serif; */
+  text-align: justify;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+article h1 {
+  margin-bottom: 0rem !important;
 }
 
 ul {
@@ -76,6 +79,15 @@ ul {
 }
 
 
+/* DATE */
+
+.date {
+  text-align: right;
+  color: var(--ifm-color-primary);
+  font-size: 1.1rem;
+}
+
+
 /* TABLE */
 
 .table-container {
@@ -86,11 +98,13 @@ ul {
 
 /* IMAGES */
 
-.section-img {
-  max-width: 14rem;
-  margin: 1rem;
+.article-img {
+  max-width: 16rem;
   display: block;
-  margin: 1rem auto;
+  margin: 2rem auto;
+
+  /* border-radius: 50%; */
+  border: #9d9c9c 10px solid;
 }
 
 
@@ -205,63 +219,6 @@ ul {
   font-size: 1.2rem;
 }
 
-
-/* ADMONITIONS */
-
-div.alert [class^="admonitionIcon"] {
-  display: none;
-}
-
-div.alert [class^="admonitionHeading"] {
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-div.alert div {
-  font-weight: normal;
-  font-size: 1rem;
-  text-transform: none;
-}
-
-div.alert p {
-  margin-left: 1.2rem;
-}
-
-div.theme-admonition-tip {
-  background-color: #243636;
-  border-color: #719998; /* #84b3ae */
-}
-
-div.theme-admonition-info {
-
-}
-
-
-/* DESIGN NOTE */
-
-details {
-  background-color: #474748 !important;
-  /* border-color: #474748 !important; */
-  border-color: #D4D5D8 !important;
-}
-
-details summary {
-  list-style: none;
-  font-weight: bold;
-  margin-left: -1rem;
-  font-size: 1.05rem;
-}
-
-details summary::before {
-  display: none;
-}
-
-details [class^="collapsibleContent"] {
-  border-top: 1px solid #D4D5D8 !important;
-  /* border-top: 0;
-  margin-top: 0;
-  padding-top: 0; */
-}
 
 /* BREADCRUMBS */
 
